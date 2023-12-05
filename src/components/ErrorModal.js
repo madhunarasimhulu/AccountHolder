@@ -119,7 +119,7 @@ const ErrorModalComponent = ({ onClick, intl, message = '', ...props }) => {
               </Description>
               <Icon src={errorIcon} />
             </ModalContent>
-            <ModalActions>
+            {/* <ModalActions>
               <BaseButton
                 data-testid={`${props['data-testid']}.okButton`}
                 type="button"
@@ -127,7 +127,7 @@ const ErrorModalComponent = ({ onClick, intl, message = '', ...props }) => {
               >
                 {translate('errorModal.okButton')}
               </BaseButton>
-            </ModalActions>
+            </ModalActions> */}
           </Modal>
         </Wrapper>
       )}
