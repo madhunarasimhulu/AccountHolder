@@ -122,7 +122,7 @@ const ErrorModalComponent = ({ onClick, intl, message = '', ...props }) => {
             <ModalActions>
               <BaseButton
                 data-testid={`${props['data-testid']}.okButton`}
-                type="button"
+                
                 onClick={onClick}
               >
                 {translate('errorModal.okButton')}
